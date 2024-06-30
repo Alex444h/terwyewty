@@ -1,1 +1,19 @@
-
+            - name: Set up WireGuard
+  # You may pin to the exact commit or the version.
+  # uses: egor-tensin/setup-wireguard@9ada23fc4805ad705d54ef854c1477920c01ad31
+  uses: egor-tensin/setup-wireguard@v1
+  with:
+    # Endpoint in the HOST:PORT format
+    endpoint: 
+    # Public key of the endpoint
+    endpoint_public_key: 
+    # Comma-separated list of IP addresses
+    ips: 
+    # Comma-separated list of netmasks
+    allowed_ips: 
+    # Private key
+    private_key: 
+    # Preshared key
+    preshared_key: # optional
+    # Useful for NAT traversal
+    keepalive: # optional
